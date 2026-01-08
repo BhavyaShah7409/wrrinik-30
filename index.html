@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter for You</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Section 1: Bouquet Interaction -->
+        <section class="section section-1" id="section-1">
+            <div class="section-content">
+                <h1 class="section-title">I have something for you</h1>
+                <div class="bouquet-container" id="bouquet">
+                    <img src="boquet.jpg" alt="Beautiful bouquet of lilies and tulips" class="bouquet-image">
+                </div>
+                <p class="bouquet-hint">Tap the bouquet</p>
+                
+                <div class="message-card" id="messageCard">
+                    <p class="message-text" id="messageText">
+                        "From the moment you came into my life, you've been my light. I'm sorry for the pain I've caused. You deserve nothing but love and kindness."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Apology Message -->
+        <section class="section section-2" id="section-2">
+            <div class="section-content">
+                <h2 class="section-title">I need to tell you</h2>
+                <div class="apology-message">
+                    <p>
+                        I've had time to reflect, and I want you to know how deeply sorry I am. I made mistakes that hurt you, and there's no excuse for that. You trusted me with your heart, and I didn't honor that trust the way I should have. 
+                    </p>
+                    <p>
+                        What I'm feeling right now is real and overwhelming. I can see the pain in your eyes, and it breaks me knowing I'm the cause of it. I want to be better—for you, for us, and for myself. Every moment without you feels empty, and all I want is the chance to prove that I've changed.
+                    </p>
+                    <p>
+                        You are extraordinary, kind, and beautiful in every way. You deserve someone who cherishes you completely. I want to be that person. I'm asking for your patience and your forgiveness, but more than that, I'm asking for a chance to show you with my actions that I understand what went wrong and that I'm committed to making things right.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Memory Section -->
+        <section class="section section-3" id="section-3">
+            <div class="section-content">
+                <h2 class="section-title">Our moment</h2>
+                <div class="memory-image-container">
+                    <img src="our.jpeg" alt="Our precious memory together" class="memory-image">
+                </div>
+                <p class="memory-text" id="memoryText">
+                    That day with you felt like everything made sense. I want more moments like that—a lifetime of them.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="nav-dots" id="navDots">
+        <button class="dot" data-section="1" aria-label="Go to section 1"></button>
+        <button class="dot" data-section="2" aria-label="Go to section 2"></button>
+        <button class="dot" data-section="3" aria-label="Go to section 3"></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
