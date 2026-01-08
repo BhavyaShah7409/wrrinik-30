@@ -195,10 +195,17 @@ body {
   background: linear-gradient(180deg, rgba(245, 213, 200, 0.3) 0%, rgba(255, 224, 236, 0.3) 100%);
 }
 
-.memory-image-container {
+.memory-images-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
   width: 100%;
   max-width: 320px;
   margin: 0 auto 25px;
+}
+
+.memory-image-container {
+  width: 100%;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 15px 40px rgba(244, 168, 196, 0.2);
